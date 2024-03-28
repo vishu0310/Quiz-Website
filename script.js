@@ -12,27 +12,27 @@ const timer = document.querySelector('.timer');
 //MAKE AN ARRAY OF OBJECTS THAT CTORES QUE, CHOICES OF QUESTION AND ANSWER
 const quiz = [
     {
-        question: "What is my name?",
-        choices: [ "Vishu", "Aayush", "Seeya", "Anvi"],
-        answer: "Vishu"
+        question: "What do you think Vishu's ideal day looks like?",
+        choices: [ "Netflix and Chill at Home ", "Road trip on a rainy day with favourite person", "Star Gazing with some soft music in comfy PJs", "All of the above"],
+        answer: "All of the above"
     },
 
     {
-        question: "What is the name of my College?",
-        choices: [ "IIIT", "IIT", "NIT", "Backchodi"],
-        answer: "Backchodi"
+        question: "What would I be most likely to get arrested for?",
+        choices: [ "Starting a dance party at no-dancing zone", "Hosting an impromptu karaoke session in a library.", "Painting on bald head of JBL", "Random Backchodi"],
+        answer: "Painting on bald head of JBL"
     },
     
     {
-        question: "What place I love the most?",
-        choices: [ "Surat", "Home", "Nagpur", "Nature"],
-        answer: "Nature"
+        question: "What kind of weather I admire the most?",
+        choices: [ "Rainy Weather", "Winter Nights", "Sunny Day", "Spring"],
+        answer: "Winter Nights"
     },
     
     {
-        question: "Which pet I want in my future?",
-        choices: [ "Cat", "Dog", "Rabbit", "Hamster"],
-        answer: "Dog"
+        question: "Which unconvetional pet I wish to own?",
+        choices: [ "Elephant", "Dog", "Rabbit", "Tiger cubs"],
+        answer: "Tiger cubs"
     }
       
 ];
